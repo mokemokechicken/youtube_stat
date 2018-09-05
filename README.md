@@ -15,6 +15,9 @@ Requirement
 
 * Python >= 3.6
 * pipenv
+* [YouTube Data API v3](https://console.developers.google.com/apis/library/youtube.googleapis.com) を有効にした Google API の Key
+* [Yahoo テキスト解析WebAPI](https://developer.yahoo.co.jp/webapi/jlp/) の ApplicationID (ClientID)
+
 
 Install
 -------
@@ -25,6 +28,17 @@ pipenv install
 
 How to Execute
 ---------
+
+### write your keys in .env file
+`.env` ファイルに Youtube と Yahoo の API Keyを書きます。
+
+```bash:.env
+YOUTUBE_API_KEY=<Your Google API Key>
+YAHOO_API_CLIENT_ID=<Your Yahoo API Client ID>
+```
+
+### run
+以下のように実行します。
 
 ```bash
 pipenv run all config_path
