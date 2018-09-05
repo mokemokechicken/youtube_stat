@@ -1,4 +1,4 @@
-.idea
+!sample/
 *.pyc
 __pycache__
 .DS_Store
@@ -8,3 +8,4 @@ working/
 *.png
 *.h5
 .ipynb_checkpoints/
+.idea/
