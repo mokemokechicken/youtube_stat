@@ -1,0 +1,8 @@
+data:
+  channel_id: UC4YaOt1yT-ZeyB0OmxHgolA
+  ignore_word_list:
+    - "^[0-9]+$"
+    - "^(ある|する|みる|なる|ない|これ|やる|いる|どう|そう|くる|いく)$"
+    - "^(ため|大|数|こと|日|The|with|道|的)$"
+  min_word_occur: 3
+  before_date: 2018-08-27

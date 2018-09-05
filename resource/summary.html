@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.1;
+}
+
+table.dataframe th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+table.dataframe td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background: #d9d9d9;
+}
+</style>
+</head>
+<body>
+<h1>Target: %(name)s</h1>
+<h2>Data</h2>
+<div>
+    <img width="400px" src="summary_dist.png">
+</div>
+<div>
+    <img width="400px" src="target_dist.png">
+</div>
+<div>
+    <img width="400px" src="view_by_month.png">
+</div>
+<div>
+    <img width="400px" src="like_rate_by_month.png">
+</div>
+<div>
+    <img width="400px" src="view_by_weekday.png">
+</div>
+
+<h2>Model</h2>
+<h3>Model Info: 1</h3>
+<div>
+    %(stat1)s
+</div>
+<h3>Coef List</h3>
+<div>
+    %(coef_table)s
+</div>
+<h3>Model Info: 2</h3>
+<div>
+    %(stat2)s
+</div>
+<h2>Important Words (p_value &lt; 0.1)</h2>
+<div>
+    %(important_table)s
+</div>
+</body>
+</html>

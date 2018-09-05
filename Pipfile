@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+pyyaml = "*"
+moke-config = "*"
+tensorflow = "*"
+python-dateutil = "*"
+pytz = "*"
+dateparser = "*"
+pandas = "*"
+statsmodels = "*"
+seaborn = "*"
+numpy = "*"
+matplotlib = "*"
+
+[dev-packages]
+jupyterlab = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+crawl = "python src/youtube_stat/run.py crawl"
+pre = "python src/youtube_stat/run.py pre"
+ana = "python src/youtube_stat/run.py ana"
+all = "python src/youtube_stat/run.py all"
