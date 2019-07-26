@@ -5,4 +5,4 @@ data:
     - "^(ある|する|みる|なる|ない|これ|やる|いる|どう|そう|くる|いく)$"
     - "^(ランス|回|今回|Siro|人|日|リトル|PLAYERUNKNOWN'S|BATTLEGROUNDS|ミライ|家|もう|はず|Nightmares|Little)$"
   min_word_occur: 3
-  before_date: 2018-08-27
+  before_date: 2019-06-30
